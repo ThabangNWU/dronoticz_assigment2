@@ -48,6 +48,11 @@ header{
 .links {
     list-style: none;
 }
+
+.links li:hover{
+   
+    border-bottom:2px solid var(--primary_color);
+}
 .links li {
     padding-inline: 40px;
     display: inline-block;
